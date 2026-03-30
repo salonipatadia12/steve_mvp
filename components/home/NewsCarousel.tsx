@@ -97,12 +97,6 @@ export default function NewsCarousel() {
         </div>
       </div>
 
-      {/* Hide scrollbar CSS */}
-      <style jsx>{`
-        .scrollbar-hide::-webkit-scrollbar {
-          display: none;
-        }
-      `}</style>
     </motion.section>
   );
 }

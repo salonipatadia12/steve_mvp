@@ -32,8 +32,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
+    <html lang="en" suppressHydrationWarning>
+      <body suppressHydrationWarning
         className={`${dmSans.variable} ${playfair.variable} font-sans antialiased min-h-screen`}
       >
         <AIAvatarProvider>
